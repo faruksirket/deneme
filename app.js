@@ -1,2 +1,6 @@
-console.log("bu ne lan")
-console.log("yeni deneme")
+var app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+  })
